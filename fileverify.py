@@ -1,7 +1,4 @@
 import os
-print "--------------------------------------------"
-print "File Verify Version 1.0 - Krishnaprasadh.R"
-print "--------------------------------------------"
 extensions=('exe','jpg','jpeg')
 signatures=('4D5A','FFD8','FFD8')
 for filename in os.listdir(os.getcwd()):
